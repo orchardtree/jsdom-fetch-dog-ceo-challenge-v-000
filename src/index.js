@@ -66,22 +66,13 @@ function filterListener() {
   }
 
 function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("breed-dropdown");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("dog-breeds");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[0];
-        txtValue = a.textContent || a.innerText;
-        alert(txtValue)
-        //if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        //    li[i].style.display = "";
-        //} else {
-        //    li[i].style.display = "none";
-        //}
+  const div = document.querySelector('div#dog-image-container');
+  for (const image of images) {
+    const img = document.createElement('img');
+    img.src = image;
+    div.appendChild(img);
     }
-}
+  }
 
 document.addEventListener('DOMContentLoaded', function() {
   //fetchImages();

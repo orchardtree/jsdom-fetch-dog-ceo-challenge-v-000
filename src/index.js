@@ -65,8 +65,8 @@ function filterListener() {
     });
   }
 
-function myFunction() {
-    /*var input, filter, ul, li, a, i, txtValue;
+/*function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("breed-dropdown");
     filter = input.value;
     ul = document.getElementById("dog-breeds");
@@ -79,8 +79,8 @@ function myFunction() {
         } else {
             li[i].style.display = "none";
         }
-    } */
-}
+    } 
+}*/
 
 document.addEventListener('DOMContentLoaded', function() {
   //fetchImages();

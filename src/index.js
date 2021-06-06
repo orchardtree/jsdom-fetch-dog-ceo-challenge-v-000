@@ -58,8 +58,9 @@ function breedListener() {
   }
 
 function filterListener() {
-  const dropdownSelection = document.querySelector("#breed-dropdown").value
+
   document.querySelector("#breed-dropdown").addEventListener("change",function(event) {
+  const dropdownSelection = document.querySelector("#breed-dropdown").value
     alert(dropdownSelection)
     });
 

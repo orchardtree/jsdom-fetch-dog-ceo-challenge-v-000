@@ -65,9 +65,8 @@ function filterListener() {
       if (breed.innerHTML[0] != dropdownSelection) {
         //console.log(breed.innerHTML)
         breed.style.display = "none";
-      } else {
+        } else {
         breed.style.display = "";
-      }
         }
       };
     });

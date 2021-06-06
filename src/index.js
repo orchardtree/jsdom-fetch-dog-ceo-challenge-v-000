@@ -67,7 +67,7 @@ function filterListener() {
 
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("#breed-dropdown");
+    input = document.getElementById("breed-dropdown");
     filter = input.value;
     ul = document.getElementById("dog-breeds");
     li = ul.getElementsByTagName("li");

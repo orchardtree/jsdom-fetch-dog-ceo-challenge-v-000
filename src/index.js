@@ -62,12 +62,12 @@ function filterListener() {
     dropdownSelection = document.querySelector("#breed-dropdown").value
     });
     //alert(dropdownSelection)
-    breedList = document.getElementsByClassName("breed");
-    for (const breed of breedList) {
-      if (breed.innerHTML[0] == dropdownSelection) {
-        console.log(breed.innerHTML)
-        }
-      };
+  breedList = document.getElementsByClassName("breed");
+  for (const breed of breedList) {
+    if (breed.innerHTML[0] == dropdownSelection) {
+      console.log(breed.innerHTML)
+      }
+    };
   }
 
 document.addEventListener('DOMContentLoaded', function() {

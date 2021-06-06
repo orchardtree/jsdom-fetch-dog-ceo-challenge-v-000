@@ -72,7 +72,7 @@ function myFunction() {
     ul = document.getElementById("dog-breeds");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
-        a = li[i][0];
+        a = li[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";

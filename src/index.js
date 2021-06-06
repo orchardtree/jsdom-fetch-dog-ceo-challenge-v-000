@@ -61,15 +61,14 @@ function filterListener() {
   document.querySelector("#breed-dropdown").addEventListener("change",function(event) {
   const dropdownSelection = document.querySelector("#breed-dropdown").value
     alert(dropdownSelection)
+    const breedList = document.getElementsByClassName("breed");
+    for (const breed of breedList) {
+      if (breed.innerHTML[0] != dropdownSelection) {
+        //console.log(breed.innerHTML)
+        breed.style.display = "none";
+        }
+      };
     });
-
-  const breedList = document.getElementsByClassName("breed");
-  for (const breed of breedList) {
-    if (breed.innerHTML[0] != dropdownSelection) {
-      //console.log(breed.innerHTML)
-      breed.style.display = "none";
-      }
-    };
   }
 
 document.addEventListener('DOMContentLoaded', function() {

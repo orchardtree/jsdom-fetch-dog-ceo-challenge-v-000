@@ -21,8 +21,8 @@ function renderImages(images) {
 
   function fetchBreeds() {
     let breeds = fetch(breedsUrl)
-        .then(resp => resp.json())
-        .then(json => renderBreeds(json.message));
+      .then(resp => resp.json())
+      .then(json => renderBreeds(json.message));
     return breeds;
     }
 

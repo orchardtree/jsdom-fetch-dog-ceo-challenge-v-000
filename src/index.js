@@ -61,7 +61,7 @@ function filterListener() {
   document.querySelector("#breed-dropdown").addEventListener("change",function(event) {
     //dropdownSelection = document.querySelector("#breed-dropdown").value
     //alert(dropdownSelection)
-    myFunction();
+    //myFunction();
     });
   }
 
@@ -79,7 +79,7 @@ function filterListener() {
         } else {
             li[i].style.display = "none";
         }
-    }
+    } 
 }*/
 
 document.addEventListener('DOMContentLoaded', function() {

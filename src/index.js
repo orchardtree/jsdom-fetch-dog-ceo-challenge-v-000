@@ -72,6 +72,6 @@ function filterListener() {
   }
 
 document.addEventListener('DOMContentLoaded', function() {
-  //fetchImages();
+  fetchImages();
   fetchBreeds();
   });

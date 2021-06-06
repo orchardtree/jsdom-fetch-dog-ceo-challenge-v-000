@@ -68,7 +68,7 @@ function filterListener() {
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("breed-dropdown");
-    filter = input.value;
+    /*filter = input.value;
     ul = document.getElementById("dog-breeds");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
@@ -79,7 +79,7 @@ function myFunction() {
         } else {
             li[i].style.display = "none";
         }
-    }
+    } */
 }
 
 document.addEventListener('DOMContentLoaded', function() {

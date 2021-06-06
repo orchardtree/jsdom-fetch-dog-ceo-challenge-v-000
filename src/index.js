@@ -67,6 +67,7 @@ function filterListener() {
 
 function myFunction() {
   ul = document.getElementById("dog-breeds");
+  li = ul.getElementsByTagName("li");
   }
 
 document.addEventListener('DOMContentLoaded', function() {

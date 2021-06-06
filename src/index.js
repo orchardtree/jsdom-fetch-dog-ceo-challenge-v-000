@@ -27,7 +27,7 @@ function renderImages(images) {
     }
 
     function renderBreeds(breeds) {
-      const ul = document.querySelector('ul#dog-breeds');
+      const ul = document.getElementById("dog-breeds");
       for (const breed in breeds) {
         if (breeds[breed].length > 0) {
           const subBreeds = breeds[breed]

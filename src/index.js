@@ -64,9 +64,9 @@ function filterListener() {
     for (const breed of breedList) {
       if (breed.innerHTML[0] != dropdownSelection) {
         //console.log(breed.innerHTML)
-        breed.style.display = "none";
+          breed.style.display = "none";
         } else {
-        breed.style.display = "";
+          breed.style.display = "";
         }
       };
     });

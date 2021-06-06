@@ -66,12 +66,7 @@ function filterListener() {
   }
 
 function myFunction() {
-  const div = document.querySelector('div#dog-image-container');
-  for (const image of images) {
-    const img = document.createElement('img');
-    img.src = image;
-    div.appendChild(img);
-    }
+  ul = document.getElementById("dogBreeds");
   }
 
 document.addEventListener('DOMContentLoaded', function() {

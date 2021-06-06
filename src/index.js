@@ -79,7 +79,7 @@ function filterListener() {
         } else {
             li[i].style.display = "none";
         }
-    } 
+    }
 }*/
 
 document.addEventListener('DOMContentLoaded', function() {

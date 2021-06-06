@@ -50,7 +50,7 @@ function renderImages(images) {
       }
 
 function breedListener() {
-  document..getElementById("dog-breeds").addEventListener("click",function(event) {
+  document.getElementById("dog-breeds").addEventListener("click",function(event) {
     if (event.target && event.target.matches("li.breed")) {
       event.target.style.color = "blue";
       }

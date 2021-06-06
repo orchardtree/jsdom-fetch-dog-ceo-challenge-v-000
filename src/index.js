@@ -60,7 +60,7 @@ function breedListener() {
 function filterListener() {
   const dropdownSelection = document.querySelector("#breed-dropdown").value
   document.querySelector("#breed-dropdown").addEventListener("change",function(event) {
-    //alert(dropdownSelection)
+    alert(dropdownSelection)
     });
 
   const breedList = document.getElementsByClassName("breed");

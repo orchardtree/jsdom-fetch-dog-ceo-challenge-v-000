@@ -67,8 +67,8 @@ function filterListener() {
 
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
+    input = document.getElementById("#breed-dropdown");
+    filter = input.value;
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {

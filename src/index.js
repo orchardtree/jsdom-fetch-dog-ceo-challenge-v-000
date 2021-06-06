@@ -68,7 +68,7 @@ function filterListener() {
 function myFunction() {
   breedList = document.getElementsByClassName("breed");
   for (const breed of breedList) {
-    console.log(breed.innerHTML)
+    console.log(breed.innerHTML[0])
     }
   }
 
